@@ -1,6 +1,9 @@
 # Hermes
 Java based Web-Crawler
+
 Note: This project will keep getting enhanced till qualification/requirements are pushed forth. Due to lack of time, it's quite basic.
+
+[crawler4j](https://github.com/yasserg/crawler4j/) is a widely used web crawler for Java however uses basic threading and monitor threads to achieve its concurrency. I reckon its implementation can be simplified using [java.util.concurrent](https://docs.oracle.com/javase/8/docs/api/index.html?java/util/concurrent/package-summary.html)'s battle-hardened classes for automating the thread execution and handling.
 
 ## Requirements/Built With
 * [Java](http://https://java.com/download/) - (Oracle Java (JDK jdk1.8.0_151 64-bit))
