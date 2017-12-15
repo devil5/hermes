@@ -5,6 +5,9 @@ Note: This project will keep getting enhanced till qualification/requirements ar
 
 [crawler4j](https://github.com/yasserg/crawler4j/) is a widely used web crawler for Java however uses basic threading and monitor threads to achieve its concurrency. I reckon its implementation can be simplified using [java.util.concurrent](https://docs.oracle.com/javase/8/docs/api/index.html?java/util/concurrent/package-summary.html)'s battle-hardened classes for automating the thread execution and handling.
 
+## Important Note
+The assignment isn't complete yet. A lot of enhancements are yet to be undertaken.
+
 ## Requirements/Built With
 * [Java](http://https://java.com/download/) - (Oracle Java (JDK jdk1.8.0_151 64-bit))
 * [Spring Boot](http://spring.io) - Yeah
@@ -22,6 +25,8 @@ Run it using:
 ### Enhancements
 * Respect /robots.txt (Good people respect other people)
 * Multi-threaded model using java.util.concurrent ExecutorService while using LinkedBlockingQueue or FixedThreadPool to limit the maximum concurrency
+* Rigorous automated testing routines
+* Extensive Error Handling Routines
 
 ## Usage
 There are two interfaces exposed for the crawler. HTTP and REST
